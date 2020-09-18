@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="shift-jis" />
+    <title>MBRの紹介、またその他ゲーム等</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>MBRとは何か</h1>
+    <p>
+        BIOSによって制御する方式のPC/AT互換機（いわゆるWindowsパソコンなど）で用いられる。記録メディア内部を同容量ごとに分割した管理単位（セクタ）のうち最も先頭にある特殊な領域で、いずれのパーティションにも属さない。
+        サイズは512バイトで、先頭から446バイトはOS読み込み用の小さなプログラム（ブートローダ/ブートストラップローダ）、続く64バイトはメディア内の各パーティションについての情報を記したパーティションテーブル（16バイト×4パーティション分）、末尾の2バイトは「ブートシグネチャ」と呼ばれるMBRの有効性を示す決まった値のデータ（0xAA55）が記録される。
+    </p>
+    <button onclick="CookieSaveOmoshiroi()" name="Omoshiro">面白い</button>
+    <script type="text/javascript" src="index.js" charset="shift-jis"></script>
+</body>
+</html>
